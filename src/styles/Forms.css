@@ -1,0 +1,75 @@
+
+.general-info-edit form div,
+.education-edit form div, /* Target divs in other forms too if sharing */
+.experience-edit form div {
+  margin-bottom: 15px; /* Space between form fields */
+}
+
+.general-info-edit label,
+.education-edit label,
+.experience-edit label {
+  display: block; /* Make labels take their own line */
+  margin-bottom: 5px; /* Space between label and input */
+  font-weight: bold; /* Make labels bold */
+  color: #333;
+}
+
+.general-info-edit input[type="text"],
+.general-info-edit input[type="email"],
+.general-info-edit input[type="tel"],
+.education-edit input[type="text"],
+.experience-edit input[type="text"],
+.experience-edit textarea {
+  width: 100%; /* Make inputs take full width */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Border for inputs */
+  border-radius: 4px; /* Rounded corners for inputs */
+  font-size: 1em; /* Standard font size */
+}
+
+.general-info-edit textarea,
+.experience-edit textarea {
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+
+.general-info-edit button[type="submit"],
+.education-edit button[type="submit"],
+.experience-edit button[type="submit"],
+.general-info-display button, /* Style edit buttons too */
+.education-display button,
+.experience-display button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1em; /* Standard font size */
+  margin-top: 10px; /* Space above the button */
+  transition: background-color 0.2s ease; /* Smooth transition on hover */
+}
+
+.general-info-edit button[type="submit"]:hover,
+.education-edit button[type="submit"]:hover,
+.experience-edit button[type="submit"]:hover,
+.general-info-display button:hover,
+.education-display button:hover,
+.experience-display button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styles for the display sections */
+.general-info-display p,
+.education-display p,
+.experience-display p {
+    margin-bottom: 10px; /* Space between paragraphs */
+    line-height: 1.5; /* Ensure good line spacing */
+}
+
+ .general-info-display p strong,
+ .education-display p strong,
+ .experience-display p strong {
+    color: #111; /* Slightly darker color for labels */
+    margin-right: 8px; /* Space after the bold label */
+ }

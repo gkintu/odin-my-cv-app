@@ -1,0 +1,46 @@
+/* src/styles/App.css */
+
+.app-container {
+    max-width: 800px; /* Limit the maximum width */
+    margin: 20px auto; /* Center the container horizontally */
+    background-color: #fff; /* White background for the main content */
+    padding: 30px; /* Padding inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .app-container header {
+    text-align: center; /* Center the heading */
+    margin-bottom: 30px; /* Space below the header */
+    padding-bottom: 15px; /* Space within the header */
+    border-bottom: 1px solid #eee; /* Separator line */
+  }
+  
+  .app-container h1 {
+      color: #007bff; /* A blue color for the main title */
+  }
+  
+  .app-container main section {
+    margin-bottom: 30px; /* Space between sections */
+    padding: 20px; /* Padding within each section */
+    border: 1px solid #ddd; /* Border around each section */
+    border-radius: 5px; /* Rounded corners for sections */
+    background-color: #fdfdfd; /* Slightly off-white background for sections */
+  }
+  
+  .app-container main section h2 {
+      margin-bottom: 15px; /* Space below section headings */
+      color: #555; /* Darker grey for section titles */
+      border-bottom: 1px dashed #eee; /* Dashed line under section title */
+      padding-bottom: 5px; /* Space below the dashed line */
+  }
+  
+  
+  .app-container footer {
+    text-align: center; /* Center footer text */
+    margin-top: 30px; /* Space above the footer */
+    padding-top: 15px; /* Space within the footer */
+    border-top: 1px solid #eee; /* Separator line */
+    font-size: 0.9em; /* Smaller font size */
+    color: #777; /* Grey color for footer text */
+  }
